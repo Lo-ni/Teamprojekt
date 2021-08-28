@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="application.android.com.sampleprojekt.MainActivity">
+    <item
+        android:id="@+id/unwatch"
+        android:orderInCategory="100"
+        android:title="@string/watch"
+        android:icon="@drawable/baseline_visibility_off_black_48dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="@string/refresh"
+        android:icon="@drawable/baseline_refresh_black_48dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+</menu>

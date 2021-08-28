@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "application.android.com.watchthewatchers"
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories{
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+//Mapforge dependecies, API, used for displaying OSM Data, its customizable Map
+    //core libraries
+    implementation 'org.mapsforge:mapsforge-core:0.10.0'
+    implementation 'org.mapsforge:mapsforge-map:0.10.0'
+    implementation 'org.mapsforge:mapsforge-map-reader:0.10.0'
+//    implementation 'org.mapsforge:mapsforge-map-writer:0.10.0'
+
+
+    implementation 'org.mapsforge:mapsforge-themes:0.10.0'
+    implementation 'net.sf.kxml:kxml2:2.3.0'
+    //android libraries
+    implementation 'org.mapsforge:mapsforge-map-android:0.10.0'
+    implementation 'com.caverock:androidsvg:1.3'
+    //poi libraries
+//    implementation 'org.mapsforge:mapsforge-poi-android:0.10.0'
+//    implementation 'org.mapsforge:sqlite-android:0.10.0'
+//    implementation 'org.mapsforge:sqlite-android:0.10.0:natives-armeabi-v7a'
+//    implementation 'org.mapsforge:sqlite-android:0.10.0:natives-arm64-v8a'
+//    implementation 'org.mapsforge:sqlite-android:0.10.0:natives-x86'
+//    implementation 'org.mapsforge:sqlite-android:0.10.0:natives-x86_64'
+
+
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:support-compat:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:design:27.1.1'
+    testImplementation 'junit:junit:4.12'
+
+    implementation 'se.akerfeldt:okhttp-signpost:1.1.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'oauth.signpost:signpost-core:1.2.1.2'
+
+    implementation 'com.codepath.libraries:android-oauth-handler:1.3.1'
+
+    // Glide for remote image loading
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    // Android Async Http for sending async network requests
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    // Room for simple persistence with an ORM
+    implementation "android.arch.persistence.room:runtime:1.1.1"
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+
+
+}
+
+
+
+
+

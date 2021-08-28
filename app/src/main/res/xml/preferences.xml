@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/action_settings"
+        android:summary="View">
+
+        <MultiSelectListPreference
+            android:dialogTitle="@string/Search_interval"
+            android:key="mode_repeat"
+            android:summary=""
+            android:title="@string/Search_interval"
+            android:entries="@array/weekdays"
+            android:entryValues="@array/weekdays_values"
+            android:defaultValue="@array/weeks_empty">
+        </MultiSelectListPreference>
+
+        <Preference
+            android:title="@string/notification">
+
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

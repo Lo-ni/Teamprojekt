@@ -1,0 +1,18 @@
+Basic Artefacts (free):
+
+<Klebeband>$<Damit kannst du Kameras abkleben>$<20>$<0>
+
+<DiggerAluHut>$<>$<20>$<400>
+
+
+Advanced Artefacts:
+
+<DiggerAluHut>$<Tarnt dich vor manchen Kameras>$<20>$<400>
+
+<DiggerAluHut>$<Tarnt dich vor manchen Kameras>$<20>$<400>
+
+<DiggerAluHut>$<Tarnt dich vor manchen Kameras>$<20>$<400>
+
+<DiggerAluHut>$<Tarnt dich vor manchen Kameras>$<20>$<400>
+
+

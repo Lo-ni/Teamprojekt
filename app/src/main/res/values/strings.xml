@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">WatchTheWatchers</string>
+    <string name="action_settings">Settings</string>
+    <string name="watch">watch</string>
+    <string name="refresh">refresh</string>
+    <string name="Search_interval">Serach Interval</string>
+    <string name="notification">Notification</string>
+    <string name="intent_host">watchthewatchers.com</string>
+    <string name="intent_scheme">oauth</string>
+    <string name="oauth_callback_url">watchthewatchers:/oauth/</string>
+    <string name="OauthSuccess">Login Erfolgreich </string>
+    <string name="OauthFailure">Login Fehlgeschlagen</string>
+
+
+    <string name="playerArtefactsPrefs">playerArtefactsPrefs</string>
+    <string name="playerScorePrefs">playerScorePrefs</string>
+    <string name="playerScoreKey">playerScoreKey</string>
+    <string name="playerMoneyPrefs">playerMoneyKey</string>
+    <string name="playerMoneyKey">playerMoneyKey</string>
+
+
+
+
+
+    <string-array name="weekdays">
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>2min</item>
+
+    </string-array>
+
+    <string-array name="weeks_empty">
+
+    </string-array>
+
+    <string-array name="weekdays_values">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+
+    <string-array translatable="false" name="api_urls">
+        <item>http://api.openstreetmap.org/</item>
+        <item>https://master.apis.dev.openstreetmap.org/</item>
+    </string-array>
+    <string-array translatable="false" name="api_consumer_keys">
+        <item>yUUzIg4gygwtrFOTxAwAufasg4Kdq0ojvfqDnvwX</item>
+        <item>oeF36aVtTfxSjADz9o6WIFuW6Yv9BosQRK8PNunW</item>
+    </string-array>
+    <string-array translatable="false" name="api_consumer_secrets">
+        <item>zsaePC3SD3ADe1xpzzIaIAp3juiyheIgGT7T1yV6</item>
+        <item>K8DAiyWio9sScsLDF7EBKQyqA15lvjVbkIL8VsvL</item>
+    </string-array>
+    <string-array translatable="false" name="api_oauth_urls">
+        <item>http://www.openstreetmap.org/</item>
+        <item>https://master.apis.dev.openstreetmap.org/</item>
+    </string-array>
+</resources>
